@@ -10,14 +10,14 @@ A small lightweight calculator written in C language for daily calculations
 The functions supported by the program are listed below     
  
  ## <u>Basic Functions</u>  
-* Add :white_check_mark:  
-* Subtract :white_check_mark:  
-* Multiply :white_check_mark:   
-* Divide :white_check_mark:  
-* Power :white_check_mark:  
-* Square_root :white_check_mark:    
-* Absolute_value :white_check_mark:       
-* Negate :white_check_mark:     
+* Add   
+* Subtract     
+* Multiply      
+* Divide     
+* Power      
+* Square_root       
+* Absolute_value           
+* Negate       
      
 ## Advanced Statistical Functions
 * Mean
