@@ -1,7 +1,7 @@
 # C- Calcify   
 A small lightweight calculator written in C language for daily calculations
 
-![C-Calcify](https://github.com/Anuj8611/C-Calcify/blob/main/images/trendy-calculator-concepts-vector.jpg)
+![C-Calcify](https://github.com/Anuj8611/C-Calcify/blob/main/images/Screenshot%20(2).png)
 
 
 
