@@ -1,13 +1,13 @@
-## Basic Functions
-add(a, b)
-subtract(a, b)
-multiply(a, b)
-divide(a, b)
-power(base, exponent)
-square_root(x)
-absolute_value(x)
-negate(x)
-Advanced Statistical Functions
+## Basic Functions   
+* Add   
+* Subtract   
+* Multiply    
+* Divide     
+* Power   
+* Square_Root    
+* Absolute_Value       
+* Negate     
+## Advanced Statistical Functions
 mean(numbers)
 median(numbers)
 mode(numbers)
