@@ -96,7 +96,31 @@ break;
 
 
 case 2:
+system("cls");
+printf("Advanced Statistical Functions \n");
+printf("\n");
+printf("1. Mean\n");
+printf("2. Median\n");
+printf("3. Mode\n");
+printf("4. Standard Deviation\n");
+printf("5. Skewness\n");
+printf("6. Kurtosis\n");
+printf("7. Data Range\n");
+break;
+
 case 3:
+system("cls");
+printf("Financial Functions \n");
+printf("\n");
+printf("1. Compound Interest\n");
+printf("2. Median\n");
+printf("3. Future Value\n");
+printf("4. Present Value\n");
+printf("5. Interest Value\n");
+printf("6. ROI\n");
+printf("7. Debt To Equity\n");
+break;
+
 case 4:
 case 5:
 case 6:
@@ -110,5 +134,3 @@ break;
 }
 
 }
-
-
