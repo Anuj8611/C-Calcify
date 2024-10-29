@@ -119,16 +119,97 @@ printf("4. Present Value\n");
 printf("5. Interest Value\n");
 printf("6. ROI\n");
 printf("7. Debt To Equity\n");
+printf("\n");
 break;
 
 case 4:
+system("cls");
+printf("Geometry Functions \n");
+printf("\n");
+printf("1. Area of Circle\n");
+printf("2. Circumference of Circle\n");
+printf("3. Area Of Triangle\n");
+printf("4. Pythagoean Theorem\n");
+printf("5. Area Of Square\n");
+printf("6. Volume Of Spehre\n");
+printf("7. Surface Area Of Sphere\n");
+printf("\n");
+
 case 5:
+system("cls");
+printf("Matrix Functions \n");
+printf("\n");
+printf("1. Matrix Addition\n");
+printf("2. Matrix Multiplication\n");
+printf("3. Determinant\n");
+printf("4. Transpose\n");
+printf("\n");
+
 case 6:
+system("cls");
+printf("Conversion Functions \n");
+printf("\n");
+printf("1. Degree To Radian\n");
+printf("2. Radian To Degree\n");
+printf("3. Celsius to Fahrenheit\n");
+printf("4. Fahrenheit to Celsius\n");
+printf("\n");
+
+
 case 7:
+system("cls");
+
+printf("Number Theory Functions \n");
+printf("\n");
+printf("1. Greatest Common Divisor\n");
+printf("2. Lowest Common Multiple\n");
+printf("3. Is prime\n");
+printf("4. Fibonacci Numbers\n");
+printf("5. Prime Factorization\n");
+printf("6. Count Primes\n");
+
+printf("\n");
+
 case 8:
+system("cls");
+printf("Probability Functions\n\n1. Binomial Probability\n2. Normal Probability\n3. Probability\n\n");
+
 case 9:
+system("cls");
+printf("Random and Set Theory Functions \n");
+printf("\n");
+
 case 10:
+system("cls");
+printf("Complex Number Functions \n");
+printf("\n");
+printf("1. Magnitude \n");
+printf("2. Conjugate \n");
+printf("\n");
+
+
 case 11:
+system("cls");
+printf("Physics Functions \n");
+printf("\n");
+printf("1. Kinetic Energy\n");
+printf("2. Potential Energy\n");
+printf("3. Force\n");
+printf("\n");
+
+
+case 12:
+system("cls");
+printf("Miscellanous Functions \n");
+printf("\n");
+printf("1. String Length\n");
+printf("2. Reverse Length\n");
+printf("3. Decimal To Binary\n");
+printf("4. Binary To Decimal\n");
+printf("\n");
+
+
+
 default:
 break;
 }
