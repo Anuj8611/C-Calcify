@@ -88,117 +88,60 @@ break;
 
 
 case 2:
-system("cls");
-printf("Advanced Statistical Functions \n");
-printf("\n");
-printf("1. Mean\n");
-printf("2. Median\n");
-printf("3. Mode\n");
-printf("4. Standard Deviation\n");
-printf("5. Skewness\n");
-printf("6. Kurtosis\n");
-printf("7. Data Range\n");
-break;
+    system("cls");
+    printf("Advanced Statistical Functions \n\n1. Mean\n2. Median\n3. Mode\n4. Standard Deviation\n5. Skewness\n6. Kurtosis\n7. Data Range\n");
+    break;
 
 case 3:
-system("cls");
-printf("Financial Functions \n");
-printf("\n");
-printf("1. Compound Interest\n");
-printf("2. Median\n");
-printf("3. Future Value\n");
-printf("4. Present Value\n");
-printf("5. Interest Value\n");
-printf("6. ROI\n");
-printf("7. Debt To Equity\n");
-printf("\n");
-break;
+    system("cls");
+    printf("Financial Functions \n\n1. Compound Interest\n2. Median\n3. Future Value\n4. Present Value\n5. Interest Value\n6. ROI\n7. Debt To Equity\n\n");
+    break;
 
 case 4:
-system("cls");
-printf("Geometry Functions \n");
-printf("\n");
-printf("1. Area of Circle\n");
-printf("2. Circumference of Circle\n");
-printf("3. Area Of Triangle\n");
-printf("4. Pythagoean Theorem\n");
-printf("5. Area Of Square\n");
-printf("6. Volume Of Spehre\n");
-printf("7. Surface Area Of Sphere\n");
-printf("\n");
+    system("cls");
+    printf("Geometry Functions \n\n1. Area of Circle\n2. Circumference of Circle\n3. Area Of Triangle\n4. Pythagorean Theorem\n5. Area Of Square\n6. Volume Of Sphere\n7. Surface Area Of Sphere\n\n");
+    break;
 
 case 5:
-system("cls");
-printf("Matrix Functions \n");
-printf("\n");
-printf("1. Matrix Addition\n");
-printf("2. Matrix Multiplication\n");
-printf("3. Determinant\n");
-printf("4. Transpose\n");
-printf("\n");
+    system("cls");
+    printf("Matrix Functions \n\n1. Matrix Addition\n2. Matrix Multiplication\n3. Determinant\n4. Transpose\n\n");
+    break;
 
 case 6:
-system("cls");
-printf("Conversion Functions \n");
-printf("\n");
-printf("1. Degree To Radian\n");
-printf("2. Radian To Degree\n");
-printf("3. Celsius to Fahrenheit\n");
-printf("4. Fahrenheit to Celsius\n");
-printf("\n");
-
+    system("cls");
+    printf("Conversion Functions \n\n1. Degree To Radian\n2. Radian To Degree\n3. Celsius to Fahrenheit\n4. Fahrenheit to Celsius\n\n");
+    break;
 
 case 7:
-system("cls");
+    system("cls");
+    printf("Number Theory Functions \n\n1. Greatest Common Divisor\n2. Lowest Common Multiple\n3. Is Prime\n4. Fibonacci Numbers\n5. Prime Factorization\n6. Count Primes\n\n");
+    break;
 
-printf("Number Theory Functions \n");
-printf("\n");
-printf("1. Greatest Common Divisor\n");
-printf("2. Lowest Common Multiple\n");
-printf("3. Is prime\n");
-printf("4. Fibonacci Numbers\n");
-printf("5. Prime Factorization\n");
-printf("6. Count Primes\n");
-
-printf("\n");
 
 case 8:
 system("cls");
 printf("Probability Functions\n\n1. Binomial Probability\n2. Normal Probability\n3. Probability\n\n");
 
 case 9:
-system("cls");
-printf("Random and Set Theory Functions \n");
-printf("\n");
+    system("cls");
+    printf("Random and Set Theory Functions \n\n");
+    break;
 
 case 10:
-system("cls");
-printf("Complex Number Functions \n");
-printf("\n");
-printf("1. Magnitude \n");
-printf("2. Conjugate \n");
-printf("\n");
-
+    system("cls");
+    printf("Complex Number Functions \n\n1. Magnitude\n2. Conjugate\n\n");
+    break;
 
 case 11:
-system("cls");
-printf("Physics Functions \n");
-printf("\n");
-printf("1. Kinetic Energy\n");
-printf("2. Potential Energy\n");
-printf("3. Force\n");
-printf("\n");
-
+    system("cls");
+    printf("Physics Functions \n\n1. Kinetic Energy\n2. Potential Energy\n3. Force\n\n");
+    break;
 
 case 12:
-system("cls");
-printf("Miscellanous Functions \n");
-printf("\n");
-printf("1. String Length\n");
-printf("2. Reverse Length\n");
-printf("3. Decimal To Binary\n");
-printf("4. Binary To Decimal\n");
-printf("\n");
+    system("cls");
+    printf("Miscellaneous Functions \n\n1. String Length\n2. Reverse String\n3. Decimal To Binary\n4. Binary To Decimal\n\n");
+    break;
+
 
 
 
