@@ -83,15 +83,7 @@ switch(a)
 {
 case 1:
 system("cls");
-printf("Basic Functions \n");
-printf("\n");
-printf("1. Add\n");
-printf("2. Subtract\n");
-printf("3. Multiply\n");
-printf("4. Divide\n");
-printf("5. Power\n");
-printf("6. Square Root\n");
-printf("7. Absolute Value\n");
+printf("Basic Functions \n\n1. Add  2. Subtract  3. Multiply  4. Divide  5. Power  6. Square Root  7. Absolute Value\n");
 break;
 
 
