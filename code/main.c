@@ -1,6 +1,7 @@
 #include<stdio.h>
 #include<stdlib.h>
 #include<windows.h>
+#include<string.h>
 
 void setColor(int textColor, int bgColor) {
     // Get the console handle
@@ -13,6 +14,11 @@ void setColor(int textColor, int bgColor) {
 int main()
 {
 int a;
+int c;
+char str[100];
+int strlength;
+
+
 system("cls");
 printf("   _____       _____      _      _  __ \n");
 printf("  / ____|     / ____|    | |    (_)/ _|\n");
@@ -140,6 +146,17 @@ case 11:
 case 12:
     system("cls");
     printf("Miscellaneous Functions \n\n1. String Length\n2. Reverse String\n3. Decimal To Binary\n4. Binary To Decimal\n\n");
+    scanf("%d", &c);
+    switch(c)
+    {
+	case 1:
+        printf("String Length \n\nEnter String\n");
+	scanf("%s",&str);
+	strlength = strlen(str);
+	printf("String length=%d ",strlength);
+    }
+    
+
     break;
 
 
