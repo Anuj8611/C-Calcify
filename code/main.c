@@ -17,6 +17,7 @@ int a;
 int c;
 char str[100];
 int strlength;
+int decnum;
 
 
 system("cls");
@@ -153,7 +154,19 @@ case 12:
         printf("String Length \n\nEnter String\n");
 	scanf("%s",&str);
 	strlength = strlen(str);
-	printf("String length=%d ",strlength);
+	printf("String length=%d ",str);
+
+    case 2:
+        printf("Reverse String \n\nEnter String\n");
+	scanf("%s",&str);
+	
+	printf("Not Implemented ");
+
+    case 3:
+        printf("Decimal to Binary \n\nEnter number\n");
+	scanf("%d",&decnum);
+	
+	printf("Not implemented ");
     }
     
 
