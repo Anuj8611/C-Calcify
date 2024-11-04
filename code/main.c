@@ -18,7 +18,7 @@ int c;
 char str[100];
 int strlength;
 int decnum;
-
+int c11;
 
 system("cls");
 printf("   _____       _____      _      _  __ \n");
@@ -140,8 +140,34 @@ case 10:
     break;
 
 case 11:
+	
     system("cls");
     printf("Physics Functions \n\n1. Kinetic Energy\n2. Potential Energy\n3. Force\n\n");
+    scanf("%d", &c11);
+	switch(c11)
+        {
+                case 1:
+		{
+		int m;
+        	int v;
+       		float ke;
+		printf("Kinetic Energy\n");
+		printf("Enter mass and velocity\n");
+		scanf("%d %d",&m,&v);
+                ke = (m*v*v)/2;
+                printf("KE is =%f",ke);
+		}
+
+		case 2:
+		break;
+
+		case 3:
+		break;
+	
+		default:
+		break;
+
+        }
     break;
 
 case 12:
