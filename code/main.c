@@ -18,7 +18,8 @@ int c;
 char str[100];
 int strlength;
 int decnum;
-int c11;
+int c1,c11;
+
 
 system("cls");
 printf("   _____       _____      _      _  __ \n");
@@ -91,6 +92,40 @@ switch(a)
 case 1:
 system("cls");
 printf("Basic Functions \n\n1. Add\n2. Subtract\n3. Multiply\n4. Divide\n5. Power\n6. Square Root\n7. Absolute Value\n");
+scanf("%d",&c1);
+switch(c1)
+{
+case 1:
+printf("Add");
+break;
+case 2:
+printf("Subtract");
+break;
+
+case 3:
+printf("Multiply");
+break;
+
+case 4:
+printf("Divide");
+break;
+
+case 5:
+printf("Power");
+break;
+
+case 6:
+printf("Asolute Value");
+break;
+
+case 7:
+printf("Square Root");
+break;
+
+
+
+}
+
 break;
 
 
