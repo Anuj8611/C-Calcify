@@ -10,7 +10,7 @@ A small lightweight calculator written in C language for daily calculations
 The functions supported by the program are listed below     
  
  ## <u>Basic Functions</u>  
-* Add   
+* Add  
 * Subtract     
 * Multiply      
 * Divide     
