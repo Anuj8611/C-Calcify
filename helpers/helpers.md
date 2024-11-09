@@ -6,7 +6,7 @@
 * Power :white_check_mark:  
 * Square_root :white_check_mark:    
 * Absolute_value :white_check_mark:       
-* Negate :white_check_mark:     
+* Negate :  
      
 ## Advanced Statistical Functions
 * Mean
