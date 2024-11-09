@@ -167,14 +167,15 @@ int main() {
                 scanf("%d %d %d %d %d", &m1,&m2,&m3,&m4,&m5);
                 float med = (m1+m2+m3+m4+m5)/5;
                 printf("Result= %f", med);
-
-                break;
+                 break;
                 }
             
-
                 case 2:
-                printf("");
+                {
+                printf("Mean \n\n");
+                printf("Not implemented");
                 break;
+                }
 
                 case 3:
                 printf("");
@@ -206,9 +207,31 @@ int main() {
             break;
 
         case 4:
+        {
+            int c4;
             system("cls");
             printf("Geometry Functions\n\n1. Area of Circle\n2. Circumference of Circle\n3. Area Of Triangle\n4. Pythagorean Theorem\n5. Area Of Square\n6. Volume Of Sphere\n7. Surface Area Of Sphere\n\n");
-            break;
+            scanf("%d",&c4);
+            switch(c4)
+            {
+                case 1:
+                {
+                    int r;
+                    printf("Area of Circle\n\n");
+                    printf("Enter radius\n");
+                    scanf("%d", &r);
+                    float area = 3.14*r*r;
+                    printf("Result= %f",area);
+
+
+
+                }
+                break;
+            }
+
+            
+        }
+        break;
 
         case 5:
             system("cls");
