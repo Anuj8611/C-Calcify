@@ -222,11 +222,20 @@ int main() {
                     scanf("%d", &r);
                     float area = 3.14*r*r;
                     printf("Result= %f",area);
-
-
-
                 }
                 break;
+
+                case 2:
+                {
+                    int r;
+                    printf("Circumference of Circle\n\n");
+                    printf("Enter radius\n");
+                    scanf("%d", &r);
+                    float cirfrce = 3.14*2*r;
+                    printf("Result= %f",cirfrce);
+                }
+                break;
+
             }
 
             
