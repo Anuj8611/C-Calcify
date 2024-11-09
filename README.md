@@ -78,7 +78,7 @@ The functions supported by the program are listed below
 * Union
 * Intersection
 * Difference
-* Symmetric_difference
+* Symmetric_difference 
 
 ## Complex Number Functions
 * Magnitude
