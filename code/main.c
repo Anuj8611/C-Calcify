@@ -18,7 +18,7 @@ int main() {
     char str[100];
     int strlength;
     int decnum;
-    int c1, c11;
+    int c1,c2, c11;
 
     system("cls");
     printf("   _____       _____      _      _  __ \n");
@@ -156,6 +156,47 @@ int main() {
         case 2:
             system("cls");
             printf("Advanced Statistical Functions\n\n1. Mean\n2. Median\n3. Mode\n4. Standard Deviation\n5. Skewness\n6. Kurtosis\n7. Data Range\n");
+            scanf("%d", &c2);
+            switch(c2)
+            {
+                case 1:
+                {
+                int m1,m2,m3,m4,m5;
+                printf("Mean \n\n");
+                printf("Enter 5 numbers \n");
+                scanf("%d %d %d %d %d", &m1,&m2,&m3,&m4,&m5);
+                float med = (m1+m2+m3+m4+m5)/5;
+                printf("Result= %f", med);
+
+                break;
+                }
+            
+
+                case 2:
+                printf("");
+                break;
+
+                case 3:
+                printf("");
+                break;
+
+                case 4:
+                printf("");
+                break;
+
+                case 5:
+                printf("");
+                break;
+
+                case 6:
+                printf("");
+                break;
+
+                case 7:
+                printf("");
+                break;
+
+            }
             break;
 
         // Add breaks after each case to prevent fall-through
